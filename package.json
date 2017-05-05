@@ -5,6 +5,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build && git subtree push --prefix public origin master",
     "develop": "gatsby develop"
   },
   "repository": {
