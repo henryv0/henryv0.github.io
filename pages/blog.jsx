@@ -41,7 +41,7 @@ export default class Blog extends React.Component {
             <StyledLink to={prefixLink('/')}>back home</StyledLink>
           </Column>
           <Column sm={1}>
-            <Message>From our blog</Message>
+            <Message>Scribbles</Message>
           </Column>
         </Row>
         <Row>

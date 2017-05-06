@@ -7,20 +7,21 @@ import { Row } from 'hedron';
  * Global Styles
  */
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+  @import url('https://fonts.googleapis.com/css?family=Rubik+27px');
 
   body {
-    font-family: 'Slabo 27px', serif;
-    color: palevioletred;
-    background: papayawhip;
-    text-align: center;
+    font-family: 'Rubik 27px', Helvetica Neue, sans-serif;
+    color: #333;
+    background-color: floralwhite;
+    text-align: left;
   }
 
-  a {
-    color: palevioletred;
+  a,
+  a:visited {
+    color: #333;
 
-    &:hover, &:focus, &:visited {
-      color: palevioletred;
+    &:hover, &:focus {
+      color: darkred;
     }
   }
 `;
@@ -51,7 +52,6 @@ export const Wrapper = styled.div`
  */
  export const Title = styled.h1`
    font-size: 30px;
-   text-decoration: underline;
  `;
 
 /*
@@ -180,7 +180,7 @@ export const Text = styled.p`
  * PostLinkContainer
  */
 export const PostLinkContainer = styled(Row)`
-  border-bottom: 2px solid ${lighten(0.1, '#db7093')};
+  border-bottom: 2px solid ${lighten(0.1, 'darkred')};
 `;
 
 /*
