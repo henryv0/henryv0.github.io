@@ -67,7 +67,7 @@ export const Subtitle = styled.h2`
  * StyledLink
  */
 export const StyledLink = styled(Link)`
-  color: palevioletred;
+  color: darkred;
   font-size: 18px;
   text-decoration: ${props => props.underline ? 'underline' : 'none'};
 
@@ -80,7 +80,7 @@ export const StyledLink = styled(Link)`
  * StyledAnchor
  */
  export const StyledAnchor = styled.a`
-   color: palevioletred;
+   color: darkred;
    font-size: 18px;
  `;
 
@@ -89,7 +89,7 @@ export const StyledLink = styled(Link)`
  */
 export const Message = styled.h2`
   font-size: 27px;
-  text-decoration: underline;
+  // text-decoration: underline;
 `;
 
 /*
